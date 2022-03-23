@@ -9,5 +9,5 @@ while True:
   accuracy=len(set(txt.split())&set(string.split()))
   accuracy=accuracy/wordcount
   time=t1-t0
-  wpm=round(wordcount/time)
-  print("WPM",wpm,\n"Accuracy",accuracy,\n"Time",time)
+  wpm= wordcount/time
+  print("WPM",wpm,"Accuracy",accuracy,"Time",time)
